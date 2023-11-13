@@ -30,6 +30,6 @@ pipelines:
           deployment: test
           # trigger: manual  # Uncomment to make this a manual deployment.
           script:
-            - docker build -it myproject .
+            - docker build -t myproject .
           services:
             - docker
