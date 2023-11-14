@@ -11,8 +11,14 @@
 
 <cc:implementation>
     <h:form>
+        <h:panelGrid columns="2">
+            <h:outputText value="Name"/>
+            <h:inputText value="${cc.name}"/>
+            <h:outputText value="Alter"/>
+            <h:inputText value="${cc.age}"/>
+        </h:panelGrid>
         <h:commandButton id="meinButton" value="Mein Button" action="#{cc.meineButtonMethode}" />
-        <h:outputText value=" --&gt; #{cc.uhrzeit}" />
+        <h:outputText value=" --&gt; #{cc.uhrzeit} and #{cc.personDto}" />
     </h:form>
 </cc:implementation>
 </html>
