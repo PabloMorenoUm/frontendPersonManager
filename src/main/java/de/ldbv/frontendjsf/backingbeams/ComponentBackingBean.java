@@ -18,16 +18,14 @@ public class ComponentBackingBean extends UIInput implements NamingContainer {
     private int age = 9;
     private PersonDto personDto;
 
-    public String meineButtonMethode()
-    {
+    public String create() {
         PersonDtoHandler handler = new PersonDtoHandler();
         personDto = handler.createNewPersonDto(name, age);
         return null;
     }
 
     @Override
-    public String getFamily()
-    {
+    public String getFamily() {
         return "javax.faces.NamingContainer";
     }
 }
