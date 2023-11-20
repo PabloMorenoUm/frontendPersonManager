@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 75%;
+    font-weight: normal;
+    color: #000000;
+    background: #FFFFFF;
+    margin: 15px;
+    padding: 10px;
+    line-height: 12px;
+}
+table {
+    border-collapse: collapse;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
